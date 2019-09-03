@@ -1,0 +1,11 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to top, #ff2e63, #252a34);
+  background-repeat: no-repeat;
+  background-color: #ff2e63;
+  overflow-x: hidden;
+}

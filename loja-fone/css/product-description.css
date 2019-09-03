@@ -1,0 +1,118 @@
+.product-description > .description-title {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.product-description > .hearts {
+  position: absolute;
+  top: 9px;
+  left: -47px;
+  transform: translateX(-100%);
+  cursor: pointer;
+}
+
+.product-description .icon.-active {
+  display: none;
+}
+
+.product-description > .hearts.-active .icon {
+  display: none;
+}
+
+.product-description > .hearts.-active .icon.-active {
+  display: block;
+}
+
+.product-description .icon {
+  transition: transform 100ms linear;
+}
+
+.product-description .icon:hover {
+  transform: scale(1.2);
+}
+
+.product-description > .product-avaliation {
+  margin-bottom: 10px;
+}
+
+.product-description .star {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.product-description .star.-full {
+  background-image: url("/assets/star-full.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product-description .star:hover {
+  transform: scale(1.2);
+}
+
+.product-description > .product-detail {
+  font-size: 20px;
+}
+
+.product-description > .product-detail.-score {
+  margin-left: 8.5px;
+}
+
+.product-description > .product-detail.-pricing {
+  margin-top: 25px;
+}
+
+.product-description > .product-detail.-pricing.-info {
+  width: 200px;
+  text-align: right;
+}
+
+.product-description > .product-detail.-description {
+  margin-top: 70px;
+  margin-bottom: 35px;
+  line-height: 30px;
+}
+
+.product-description .contrast {
+  text-transform: uppercase;
+  float: left;
+}
+
+.product-description .action {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 1310px) {
+  .product-description {
+    width: 50%;
+    min-width: 655px;
+    margin: 0 auto 60px;
+  }
+
+  .product-description > .description-title {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .product-description > .hearts {
+    position: static;
+    transform: none;
+  }
+
+  .product-description > .product-avaliation {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .product-description > .product-detail.-score {
+    padding-top: 4px;
+  }
+}
+
+@media (max-width: 720px) {
+  .product-description {
+    width: 90%;
+    min-width: auto;
+  }
+}

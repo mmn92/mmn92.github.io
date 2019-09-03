@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+.header-store {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+  margin-bottom: 96px;
+}
+
+.header-store > .title {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.header-store > .navigation {
+  font-size: 21px;
+  font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 1310px) {
+  .header-store {
+    padding-right: 60px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1235px) {
+  .header-store {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .header-store > .title {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1215px) {
+  .header-store {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 970px) {
+  .header-store {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 415px) {
+  .header-store {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

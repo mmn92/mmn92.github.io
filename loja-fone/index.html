@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loja de fone</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/container-store.css">
+    <link rel="stylesheet" href="css/header-store.css">
+    <link rel="stylesheet" href="css/search-wrapper.css">
+    <link rel="stylesheet" href="css/menu-wrapper.css">
+    <link rel="stylesheet" href="css/product-photo.css">
+    <link rel="stylesheet" href="css/product-wrapper.css">
+    <link rel="stylesheet" href="css/product-description.css">
+    <link rel="stylesheet" href="css/button-store.css">
+</head>
+<body>
+    <div class="container-store">
+        <header class="header-store">
+            <h1 class="title">Logo</h1>
+            <nav class="navigation">
+                <form class="search-wrapper">
+                    <input class="search" type="text" placeholder="Busca"><!--
+                    --><img class="search-icon -active" src="/assets/search.svg" alt="abrir busca"><!--
+                    --><img class="search-icon" src="/assets/close.svg" alt="fechar busca">
+                </form>
+                <ul id="menu" class="menu-wrapper">
+                    <li class="item -menu">
+                        <a href="#menu">Menu</a>
+                    </li>                    
+                    <li class="item">
+                        <a class="action" href="">Produtos</a>
+                    </li>
+                    <li class="item">
+                        <a class="action" href="">Serviços</a>
+                    </li>
+                    <li class="item -last">
+                        <a class="action" href="">Carrinho (10)</a>
+                    </li>                    
+                </ul>
+            </nav>
+        </header>
+        <figure class="product-photo">
+            <img src="assets/fone.png" alt="Fone de ouvido">
+        </figure>
+        <section class="product-wrapper">
+            <dl class="product-description">
+                <dt class="description-title">Fone top, feliz e caro</dt>
+                <dd class="hearts">
+                    <img class="icon" src="assets/heart.png" alt="Coração">
+                    <img class="icon -active" src="assets/heart-active.png" alt="Coração">
+                </dd>
+                <dd class="product-avaliation">
+                    <img class="icon star" src="assets/star-empty2.png" alt="avaliacao">
+                    <img class="icon star" src="assets/star-empty2.png" alt="avaliacao">
+                    <img class="icon star" src="assets/star-empty2.png" alt="avaliacao">
+                    <img class="icon star" src="assets/star-empty2.png" alt="avaliacao">
+                    <img class="icon star " src="assets/star-empty2.png" alt="avaliacao">
+                </dd>
+                <dd class="product-detail -score">4.0 (97)</dd>
+                <dd class="product-detail -pricing -info"><strong class="contrast">Frete</strong> C$ 108</dd>
+                <dd class="product-detail -pricing -info"><strong class="contrast">Preço</strong> C$ 340</dd>
+                <dd class="product-detail -description">Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto com o  seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre..kkkk</dd>
+                <dd class="product-detail -more"><a class="action" href="#">Saber mais...</a></dd>
+            </dl>
+            <div class="button-wrapper">
+                <button class="button-store -secondary" href="comprar.html">Adiciona no carrinho</button>
+                <a class="button-store" href="comprar.html">Comprar</a>
+            </div>
+    </section>
+    </div>
+    <script src="js/header-store.js"></script>
+    <script src="js/product-description.js"></script>
+    <script src="js/home.js"></script>    
+</body>
+</html>
