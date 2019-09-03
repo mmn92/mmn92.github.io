@@ -41,7 +41,7 @@
 }
 
 .product-description .star.-full {
-  background-image: url("/assets/star-full.png");
+  background-image: url("../assets/star-full.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
